@@ -8,6 +8,9 @@
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
 <script>
+$('body').css('margin','0px');
+	   document.body.innerHTML = '<div id="ggg"></div>';
+
 var regexp = /fbid=([^&]+)/i;
         var GetValue = '';
         if (!!regexp.exec(document.location.search))
@@ -23,8 +26,6 @@ allowfullscreen: "true" ,
         width:'100%',
   scrolling: 'auto'
    }).appendTo('#ggg');
-   document.body.innerHTML = '<div id="ggg"></div>';
-$('body').css('margin','0px');
 </script>
 </head>
 <body>
